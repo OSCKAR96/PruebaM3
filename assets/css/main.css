@@ -11974,6 +11974,7 @@ textarea.form-control-lg {
 body {
   border: 1px solid;
   background: black;
+  color: azure;
 }
 
 .container {
@@ -11989,11 +11990,83 @@ body {
   background: transparent;
 }
 
-.informacion {
+.titulo {
   display: flex;
   justify-content: center;
 }
 
-.informacion__titulo {
+.titulo__titulo {
   padding: 20px;
+}
+
+.titulo__linea {
+  border: 5px solid blueviolet;
+  display: flex;
+  flex-direction: column;
+}
+
+.informacion2 {
+  display: flex;
+  border: 2px solid;
+  margin: 0px;
+}
+
+.informacion2 img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.informacion2 p {
+  border: 1px solid;
+}
+
+.informacion2__texto {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.informacion2__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.destacados {
+  display: flex;
+  justify-content: center;
+}
+
+.destacados__titulo {
+  padding: 10px;
+}
+
+.carta {
+  margin: 0px !important;
+  display: flex;
+}
+
+.card__img {
+  height: 200px;
+  width: 40%;
+}
+
+.col {
+  display: flex;
+  flex-grow: 1;
+}
+
+.card__testimonio {
+  display: flex;
+  flex-direction: row;
+}
+
+.card__img--testimonio {
+  width: 55px;
+  right: 55px;
+  border-radius: 50%;
 }/*# sourceMappingURL=main.css.map */
