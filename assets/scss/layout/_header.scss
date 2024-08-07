@@ -1,5 +1,4 @@
 .container{
-    border: 1px solid;
     padding: 0;
 }
 .encabezado{
@@ -8,4 +7,9 @@
 
 .navbar-custom{
     background: transparent;
+}
+
+#navbarSupportedContent .nav-link, .navbar-brand{
+    color: white;
+    font-size: 25px;
 }

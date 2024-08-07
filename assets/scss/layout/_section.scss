@@ -4,11 +4,11 @@
 }
 
 .titulo__titulo{
-    padding: 20px;
+    padding: 15px;
 }
 
 .titulo__linea{
-    border: 5px solid blueviolet;
+    border: 3px solid;
     display: flex;
     flex-direction: column;
 }
@@ -16,21 +16,14 @@
 
 .informacion2 {
     display: flex;
-    border: 2px solid;
     margin: 0px;
 }
 
 .informacion2 img {
     max-width: 100%;
     height: auto;
-    border: 1px solid;
     padding: 20px;
     border-radius: 30px;
-
-}
-
-.informacion2 p {
-    border: 1px solid;
 }
 
 .informacion2__texto{
@@ -55,21 +48,6 @@
     padding: 10px;
 }
 
-.carta{
-    margin: 0px !important;
-    display: flex;
-}
-
-.card__img{
-    height: 200px;
-    width: 40%;
-}
-
-.col {
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-}
 
 
 // .card__testimonio{
@@ -82,12 +60,6 @@
 //     right: 55px;
 //     border-radius: 50%;
 // }
-
-.carta{
-    display: flex;
-}
-
-
 
 .exp{
     background: transparent;

@@ -1,9 +1,15 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-@import "../scss/base/reset";
+@import "./base/reset";
 
-@import "../scss/layout/header";
+@import "./layout/header";
 
-@import "../scss/layout/section";
+@import "./layout/section";
 
-@import "../scss/components/forms";
+@import "./components/forms";
+
+@import "./components/corrusel";
+
+@import "./layout/contacto";
+
+@import "./layout/card";
