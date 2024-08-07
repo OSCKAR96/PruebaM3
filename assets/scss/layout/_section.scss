@@ -68,17 +68,49 @@
 .col {
     display: flex;
     flex-grow: 1;
+    justify-content: center;
 }
 
 
-.card__testimonio{
+// .card__testimonio{
+//     display: flex;
+//     flex-direction: row;
+// }
+
+// .card__img--testimonio{
+//     width: 55px;
+//     right: 55px;
+//     border-radius: 50%;
+// }
+
+.carta{
     display: flex;
-    flex-direction: row;
 }
 
-.card__img--testimonio{
+
+
+.exp{
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.exp__cuerpo{
+    color: burlywood;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.exp__texto{
+    background: transparent;
+}
+
+.exp__img{
+    height: 55px;
     width: 55px;
-    right: 55px;
     border-radius: 50%;
 }
-

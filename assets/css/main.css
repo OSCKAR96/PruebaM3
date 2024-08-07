@@ -12058,15 +12058,60 @@ body {
 .col {
   display: flex;
   flex-grow: 1;
+  justify-content: center;
 }
 
-.card__testimonio {
+.carta {
   display: flex;
-  flex-direction: row;
 }
 
-.card__img--testimonio {
+.exp {
+  background: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.exp__cuerpo {
+  color: burlywood;
+  text-align: center;
+  align-items: center;
+}
+
+.exp__texto {
+  background: transparent;
+}
+
+.exp__img {
+  height: 55px;
   width: 55px;
-  right: 55px;
   border-radius: 50%;
+}
+
+.contacto {
+  margin-bottom: 20px;
+}
+
+.contacto__titulo {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0PX;
+}
+
+.contacto__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto__info--icon {
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.contacto__info--texto {
+  font-size: 13px;
+  margin-left: 15px;
 }/*# sourceMappingURL=main.css.map */
